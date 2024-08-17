@@ -1,0 +1,27 @@
+.about-banner {
+    background-image: url(../../assets/Image/almond/WEB_BANNER_1_1_8_O1.webp);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    max-width: 1230px;
+    margin: auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+.banner-container h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Mesmerize;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.047px;
+    text-transform: uppercase;
+    margin: 0;
+}

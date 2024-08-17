@@ -1,0 +1,75 @@
+<header style="background-color: brown; max-width: 100%; ">
+  <div class="row header">
+    <div class="col-md-10" style="padding-top: 7px;">
+
+      <h3 class="title"><span class="sapn1">श्री</span> Vinayak Enterprises</h3>
+    </div>
+    <div class="col-md-2 d-flex" style="padding-top: 7px;">
+   
+        <i class="fa fa-heart" routerLink="/wishlist"></i>
+      &nbsp;  &nbsp;
+     
+      <button class="log" routerLink="/login">Login</button>
+      <button class="reg" routerLink="/signup">Sign up</button>
+
+
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #55c7e4; max-width: 100%; ">
+
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="#"><span
+          style="color: rgb(76, 180, 16); font-size: 40px; font-weight: bold; ">श्री&nbsp;</span><img
+          src="../../assets/Image/Vyayak-tec-b.png" class="images2"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="max-width: 100%;">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <br />
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="./about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"aria-haspopup="true" aria-expanded="false" routerLink="./product" >Product</a>
+           
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" routerLink="./contact">Contact</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" routerLink="./blog">Blog</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <span (click)="toggleSearch()" class="search-toggle"></span>
+          <div class="input-group">
+            <input type="search" placeholder="Search here..." class="form-control rounded"  aria-label="Search" aria-describedby="search-addon" />
+            <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Search</button>
+          </div>
+          <div class="dropdown">
+            <i class="fa fa-user" aria-hidden="true" data-bs-toggle="dropdown" aria-expanded="false"></i>
+            <ul class="dropdown-menu menubar">
+              <li class="menubar2"><a class="dropdown-item menubar3" href="#" routerLink="/user"><i class="fa fa-user"
+                    aria-hidden="true"></i><span class="member4">User</span> </a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i><span
+                class="member4">LogOut</span></a></li>
+            </ul>
+          </div>
+       
+          <i class="fa fa-shopping-cart" routerLink="./add"></i>
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+</header>

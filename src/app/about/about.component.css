@@ -1,0 +1,345 @@
+.about-banner {
+    background-image: url(../../assets/Image/almond/WEB_BANNER_1_1_8_O1.webp);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    max-width: 1230px;
+    margin: auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+.banner-container h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Mesmerize;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.047px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.AJ-breadcrumb {
+    margin-bottom: 40px;
+}
+
+.AJ-breadcrumb {
+    gap: 10px;
+    row-gap: 5px;
+}
+
+.AJ-breadcrumb {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.AJ-breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 1200px;
+    width: 100%;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 5px;
+    margin: 0 auto 40px;
+    padding: 20px 0 0;
+}
+.AJ-breadcrumb li {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    list-style: none;
+    text-transform: capitalize;
+ 
+}
+.AJ-breadcrumb li a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    text-transform: capitalize;
+    
+}
+.AJ-breadcrumb li:last-child {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #dfb760;
+}
+
+.AJ-breadcrumb li {
+    font-size: 13px;
+}
+.AJ-breadcrumb li, .AJ-breadcrumb li a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: none;
+} 
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1230px;
+    margin: auto;
+    padding: 0 15px;
+    overflow: hidden;
+
+}
+.profile-container {
+    gap: 20px;
+    
+}
+.img {
+    max-width: 540px;
+}
+.img {
+    position: relative;
+   
+    height: 100%;
+}
+.img img {
+    width: 100%;
+}
+
+.profile-container img {
+    
+    height: 100%;
+    object-fit: cover;
+}
+.img img {
+    display: block;
+}
+.img div {
+    padding: 10px 15px;
+}
+.img div {
+    position: absolute;
+    bottom: 0;
+    background: rgba(47,55,146,.81);
+    left: 0;
+    right: 0;
+    padding: 15px 15px 15px 25px;
+}
+.img div h3 {
+    font-size: 16px;
+    line-height: 26px;
+}
+.img div h3, .img div p {
+    margin: 0;
+}
+.img div h3 {
+    color: #fff;
+    font-family: Poppins;
+    
+    font-style: normal;
+    font-weight: 600;
+    
+}
+.img div p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.img div h3, .img div p {
+    margin: 0;
+}
+.img div p {
+    color: #fff;
+    font-family: Poppins;
+    
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.profile-content {
+    margin-bottom: 40px;
+}
+.profile-content h2 {
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 17px;
+    color: #000;
+    font-family: Mesmerize;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    max-width: 594px;
+}
+.profile-content p.bt {
+    margin-bottom: 20px;
+}
+.profile-content p {
+    font-size: 18px;
+    max-width: 100%;
+    margin: 0;
+    color: #333;
+   
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.5px;
+    
+    font-family: Poppins,sans-serif;
+}
+.bt-profile.profile-top .profile-content {
+    border-top: 0;
+}
+.bt-profile .profile-content {
+    background-image: url(../../assets/Image/almond/Vector02_2.webp);
+}
+
+.bt-profile .profile-content {
+    border-bottom: 0!important;
+    padding: 50px 15px!important;
+}
+.profile-content h2 {
+    font-size: 23px;
+}
+.bt-profile h2 {
+    color: #2f3792;
+}
+.profile-content h2 {
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 17px;
+ 
+    font-family: Mesmerize;
+   
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+    max-width: 594px;
+}
+
+
+.profile-content p, .bt-profile.rights .profile-content p {
+    max-width: 100%;
+}
+.profile-content p {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.5px;
+    max-width: 564px;
+    font-family: Poppins,sans-serif;
+}
+
+.bt-botton {
+    padding: 11px 14px;
+    border-radius: 5px;
+    background: #DFB760;
+    color: #fff;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 15.03px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: fit-content;
+    transition: .5s ease;
+    
+    border: 1px solid #DFB760;
+    margin-top: 28px;
+}
+
+
+
+.bt-profile .profile-content {
+    background-image: url(../../assets/Image/almond/Vector02_2.webp);
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.ct-breadcrumb {
+    margin: 7px 0 0;
+    list-style: none;
+    color: #fff;
+}
+
+.ct-breadcrumb li {
+    display: inline-block;
+    font-size: 16px;
+    color: inherit;
+}
+ul li {
+    list-style-position: inside;
+}
+.ct-breadcrumb li a {
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

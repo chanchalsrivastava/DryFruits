@@ -1,0 +1,79 @@
+body{margin-top:20px;}
+.about-banner {
+  background-image: url(../../assets/Image/almond/top-view-autumnal-bowl-with-pine-cones-copy-space_4_1_O1.webp);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container {
+  max-width: 1230px;
+  margin: auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+.banner-container h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Mesmerize;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.047px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-left:37%;
+  padding:0;
+  }
+  
+  
+  .rating{
+    margin-left:37%;
+  }
+  
+  .page{
+    background-color:#dfe6e0;
+  padding:2%;
+  margin: auto;
+  }
+  
+  .fa{
+    color:#f2dd1d;
+  }
+  
+  .card-img-top{
+  width:90%;
+  height:225px;
+  }
+  
+  .view{
+    background-color:#dfe6e0;
+    padding:10px;
+    margin:20px;
+  }
+  
+  .card{
+    width:95%;
+    padding:0px;
+    margin-left: 2%;
+  }
+  
+  .card-footer{
+    background-color: #ff772e;
+    font-weight: 700;
+  }
+  
+  .price{
+  color:#ff4517;
+    font-weight: 600;
+  
+  }

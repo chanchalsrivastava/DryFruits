@@ -1,0 +1,94 @@
+<section class="py-5">
+    <div class="container">
+        <div class="row gx-5">
+            <aside class="col-lg-6">
+                <div class="border rounded-4 mb-3 d-flex justify-content-center">
+                    <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image"
+                        href="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/detail1/big.webp">
+                        <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit"
+                            src="../../assets/Image/almonds.jpg">
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center mb-3">
+                    <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image">
+                        <img width="60" height="60" class="rounded-2" src="../../assets/Image/almonds.jpg">
+                    </a>
+                    <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image">
+                        <img width="60" height="60" class="rounded-2" src="../../assets/Image/almonds.jpg">
+                    </a>
+                    <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image">
+                        <img width="60" height="60" class="rounded-2" src="../../assets/Image/almonds.jpg">
+                    </a>
+                    <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image">
+                        <img width="60" height="60" class="rounded-2" src="../../assets/Image/almonds.jpg">
+                    </a>
+                    <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image">
+                        <img width="60" height="60" class="rounded-2" src="../../assets/Image/almonds.jpg">
+                    </a>
+
+                </div>
+
+            </aside>
+            <main class="col-lg-6">
+                <div class="ps-lg-3">
+                    <h1 class="display-5 fw-bolder">Almonds</h1>
+                    <p class="lead">The almond is a species of small tree from the genus Prunus, cultivated worldwide
+                        for
+                        its seed, a culinary nut. Along with the peach, it is classified in the subgenus Amygdalus,
+                        distinguished from the other subgenera by corrugations on the shell surrounding the seed.
+                    </p>
+                    <div class="d-flex flex-row my-3">
+                        <div class="text-warning mb-1 me-2">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="ms-1">
+                                4.5
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="baseAmount">Base Amount &nbsp; :</label> &nbsp;&nbsp;
+                        <input type="text" id="baseAmount" [(ngModel)]="baseAmount" readonly style="width: 50px;">
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label class="label1" for="weight">Size</label>
+                            <select id="weight" [(ngModel)]="selectedWeight" class="text1"
+                                data-attribute_name="attribute_weight" data-show_option_none="yes">
+                                <option value="">Choose an option</option>
+                                <option value="4" selected="selected" class="attached enabled">1kg
+                                </option>
+                                <option value="3" class="attached enabled">750gm
+                                </option>
+                                <option value="2" class="attached enabled">500gm
+                                </option>
+                                <option value="1" class="attached enabled">250gm
+                                </option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="label1" for="quantity">Select Quantity:</label>
+                            <input type="number" class="text2" [(ngModel)]="selectedQuantity" id="quantity" min="1">
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <label>Total Amount:</label>
+                    <p>{{ calculateTotal() | number: '1.2' }}</p>
+                    <a href="#" class="btn btn-primary shadow-0" routerLink="/add"> <i
+                            class="me-1 fa fa-shopping-basket"></i> Add to cart </a> &nbsp;&nbsp;
+                    <a href="#" routerLink="/wishlist"
+                        class="btn btn-light border border-secondary py-2 icon-hover px-3"> <i
+                            class="me-1 fa fa-heart fa-lg"></i> Save </a>
+                </div>
+            </main>
+        </div>
+    </div>
+</section>

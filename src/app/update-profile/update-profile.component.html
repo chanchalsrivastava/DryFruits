@@ -1,0 +1,73 @@
+<div class="container-xl px-4 mt-4">
+
+    <ul class="nav "  style="margin-left: 20%; margin-top: 3%;">
+        <li class="nav-item"  >
+       <button class="btn1"><a class="nav-link" aria-current="page" href="#" routerLink="/user" >Account Details</a></button>   
+        </li>
+      &nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+        <button class="btn2"><a class="nav-link" href="#" routerLink="/password" >Update Password</a></button>  
+        </li>
+        &nbsp;&nbsp;&nbsp;
+        <li class="nav-item">
+        <button class="btn3"><a class="nav-link" href="#" routerLink="/update" >Update Profile</a></button>  
+        </li>
+      </ul>
+
+    <div class="row" style="margin-left: 15%; margin-top: 20px;">
+      
+        <div class="col-xl-8">
+          
+            <div class="card mb-4">
+                <div class="card-header">Update Profile</div>
+                <div class="card-body">
+                    <form >
+                       <div class="row gx-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputUsername">Username</label>
+                            <input class="form-control" formControlName="username" id="inputUsername" type="text" placeholder="Enter your username" >
+                        </div>
+                         
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputEmailAddress">Email address</label>
+                            <input class="form-control" formControlName="email" id="inputEmailAddress" type="email" placeholder="Enter your email address" >
+                        </div>
+                       </div>
+                      
+                    
+                        <div class="row gx-3 mb-3">
+                           
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputFirstName">First name</label>
+                                <input class="form-control" formControlName="firstname" id="inputFirstName" type="text" placeholder="Enter your first name" >
+                            </div>
+                         
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputLastName">Last name</label>
+                                <input class="form-control" formControlName="lastname" id="inputLastName" type="text" placeholder="Enter your last name" >
+                            </div>
+                        </div>
+                  
+                        <div class="row">
+
+                          
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputLocation">Location</label>
+                                <input class="form-control" formControlName="location" id="inputLocation" type="text" placeholder="Enter your location">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="small mb-1" for="inputPhone">Phone number</label>
+                                <input class="form-control" formControlName="phone" id="inputPhone" type="tel" placeholder="Enter your phone number" >
+                            </div>
+                        </div>
+                   
+                     
+                     
+                       
+                        <button class="btn btn-primary" type="button">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
